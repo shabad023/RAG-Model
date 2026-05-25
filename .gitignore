@@ -4,3 +4,4 @@ __pycache__/
 audios/
 Videos/
 transcripts/
+.ipynb_checkpoints/

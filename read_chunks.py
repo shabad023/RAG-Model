@@ -4,6 +4,7 @@
 import requests
 import os
 import json
+import joblib
 import pandas as pd
 # requests lets your code send messages over the internet (or to a program running on your own computer).
 
@@ -51,3 +52,5 @@ print(df)
 # a=create_embedding("hello world")
 # print(a)
 
+joblib.dump(my_dicts, "embeddings.joblib")
+print("Saved to embeddings.joblib")

@@ -1,6 +1,7 @@
 # Environments and Cache
 __pycache__/
 venv/
+.ipynb_checkpoints/
 
 # Large Model Files
 embeddings.joblib
@@ -16,5 +17,5 @@ prompt_debug.txt
 response.txt
 tempCodeRunnerFile.py
 
-# Mac System Files (Hamesha ignore karna achha hota hai)
+# Mac System Files
 .DS_Store

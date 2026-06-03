@@ -1,7 +1,20 @@
-venv/
+# Environments and Cache
 __pycache__/
-.DS_Store
+venv/
+
+# Large Model Files
+embeddings.joblib
+
+# User Data and Media
 audios/
 Videos/
 transcripts/
-.ipynb_checkpoints/
+jsons/
+
+# Temp and Debug Files
+prompt_debug.txt
+response.txt
+tempCodeRunnerFile.py
+
+# Mac System Files (Hamesha ignore karna achha hota hai)
+.DS_Store
